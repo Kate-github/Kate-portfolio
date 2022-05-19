@@ -18,7 +18,14 @@ header {
     color: var(--header-color);
     height: 150px;
 }
+footer {
+    text-align: center;
+}
 #contact-me h3 {
+    color: var(--header-color);
+    font-size: 25px;
+}
+#resume {
     color: var(--header-color);
     font-size: 25px;
 }

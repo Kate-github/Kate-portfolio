@@ -1,0 +1,103 @@
+*{
+    padding:3px;
+}
+:root {
+    --header-color:rgb(171, 83, 114);
+    --background-color: rgb(237, 220, 206);
+}
+h2 {
+    color: var(--background-color);
+    float: center;
+    text-align: center;
+    background: var(--header-color);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--header-color);
+    height: 150px;
+}
+#contact-me h3 {
+    color: var(--header-color);
+    font-size: 25px;
+}
+body {
+    background-color: var(--background-color);
+}
+h1 {
+    display: inline block;
+    font-family: cursive;
+    font-size: 50px;
+}
+nav ul{
+    list-style-type: none;
+    display: inline block;
+    font-size: 20px;
+    color: whitesmoke;
+}
+img {
+    float: center;
+}
+#about-content {
+    display: inline-flex;
+    border: solid 2px var(--header-color);
+    border-radius: 15px;
+    font-size: 25px;
+    color: var(--header-color);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    background-color: goldenrod;
+    border-radius: 15px;
+    justify-content:space-between;
+    width:100%;
+    height: 500px;
+}
+
+.work-project:first-child {
+    flex-basis: 100%;
+    background: url(./images/hero-bg.jpg);
+    background-size: cover;
+    font-size: 45px;
+    
+}
+#Garage-Sale {
+    background: url(./images/Garage-Sale-LM.jpeg);
+    background-size: contain;
+    text-align: left;
+    font-size: 25px;
+}
+#Project-03 {
+    background: url(./images/project\ picture.jfif);
+    background-size: contain;
+    text-align: left;
+    font-size: 25px;
+}
+#Project-04 {
+    background: url(./images/project\ picture\ 2.jpg);
+    background-size: contain;
+    text-align: left;
+    font-size: 25px;
+}
+.work-project { 
+    justify-content: center;
+    border: solid 1px gray;
+    flex-grow: 1;
+    min-height: 150px;
+    justify-content: space-between;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#avatar {
+  height:250px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #avatar {
+      height:150px;
+    }
+  }

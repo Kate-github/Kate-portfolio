@@ -73,7 +73,7 @@ img {
 }
 #Garage-Sale {
     background: url(./images/Garage-Sale-LM.jpeg);
-    background-size: contain;
+    background-size: 50%;
     text-align: left;
     font-size: 25px;
 }
@@ -83,9 +83,9 @@ img {
     text-align: left;
     font-size: 25px;
 }
-#Project-04 {
-    background: url(./images/project\ picture\ 2.jpg);
-    background-size: contain;
+#TrackStream {
+    background: url(./images/Picture2.jpg);
+    background-size: 35%;
     text-align: left;
     font-size: 25px;
 }
